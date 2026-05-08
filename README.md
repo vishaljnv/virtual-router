@@ -35,9 +35,9 @@ Requirements:
 
 - Linux (uses `epoll`, `eventfd`, and named FIFOs).
 - A C++17 compiler (g++ 9+ or clang++ 10+).
-- `nlohmann/json` (single header) at `third_party/nlohmann/json.hpp`.
-- Catch2 v2 (single header) at `third_party/catch2/catch.hpp` (only
-  needed for unit tests).
+
+`nlohmann/json` and `Catch2` (v2) single-header dependencies are
+vendored under `third_party/` — no external setup needed.
 
 Build the binary:
 
@@ -158,7 +158,8 @@ vrouter/
 │   ├── sample_data/         example config files
 │   ├── unit/                Catch2 unit tests
 │   └── integration.sh       end-to-end test scenarios
-├── third_party/             single-header dependencies (you provide)
+├── third_party/             single-header dependencies (vendored)
 ├── README.md
 └── DESIGN.md
 ```
+

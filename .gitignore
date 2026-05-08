@@ -1,0 +1,13 @@
+# Build artifacts
+build/
+vrouter
+vrouter_tests
+
+# Object files, if built in root
+*.o
+*.d
+*.a
+
+# Temp files
+/tmp/vrouter.events
+vrouter.events*
