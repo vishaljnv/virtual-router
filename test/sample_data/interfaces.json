@@ -1,0 +1,42 @@
+[
+  {
+    "name": "eth0",
+    "ip_prefix": "10.0.0.1/24",
+    "admin_state": "up",
+    "oper_state": "up",
+    "rx_packets": 1200,
+    "tx_packets": 980,
+    "rx_bytes": 240000,
+    "tx_bytes": 180500
+  },
+  {
+    "name": "eth1",
+    "ip_prefix": "192.168.1.1/24",
+    "admin_state": "up",
+    "oper_state": "up",
+    "rx_packets": 800,
+    "tx_packets": 650,
+    "rx_bytes": 125000,
+    "tx_bytes": 110200
+  },
+  {
+    "name": "eth2",
+    "ip_prefix": "172.16.0.1/16",
+    "admin_state": "up",
+    "oper_state": "up",
+    "rx_packets": 4500,
+    "tx_packets": 4100,
+    "rx_bytes": 920000,
+    "tx_bytes": 870300
+  },
+  {
+    "name": "eth3",
+    "ip_prefix": "203.0.113.1/24",
+    "admin_state": "down",
+    "oper_state": "down",
+    "rx_packets": 0,
+    "tx_packets": 0,
+    "rx_bytes": 0,
+    "tx_bytes": 0
+  }
+]
